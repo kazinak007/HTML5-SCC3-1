@@ -96,7 +96,7 @@ body {
     color: #333333;
     font-size: 16px;
     line-height: 24px;
-    margin: 20px 0 20px 0;
+    margin: 0 0 20px 0;
 }
 
 .about-product-p1:nth-child(3) {
@@ -240,7 +240,9 @@ body {
 
 .review-part {
     width: 50%;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: self-start;
 }
 
 .review-img {
@@ -249,17 +251,17 @@ body {
     height: 75px;
     border-radius: 50%;
     background-color: #445161;
-    float: left;
     margin: 14px 43px 0 0;
 }
 
-div.review-part:nth-child(3),
-div.review-part:nth-child(5) {
+.review-part:nth-child(3),
+.review-part:nth-child(5) {
     box-sizing: border-box;
     padding: 0 0 0 32px;
 }
 
 .review-txt {
+    width: 483px;
     color: #333333;
     font-size: 14px;
     font-weight: 400;
@@ -267,7 +269,6 @@ div.review-part:nth-child(5) {
     background-color: #ebebeb;
     font-style: italic;
     min-height: 120px;
-    overflow: hidden;
     box-sizing: border-box;
     padding: 15px 20px 15px 26px;
     border-radius: 10px;
@@ -280,8 +281,8 @@ div.review-part:nth-child(5) {
     border: 15px solid transparent;
     border-right: 15px solid #ebebeb;
     position: absolute;
-    top: 10px;
-    left: -10px;
+    top: 25px;
+    left: -29px;
 }
 
 .review-signature {
@@ -375,6 +376,9 @@ div.review-part:nth-child(5) {
     line-height: 18px;
     text-transform: uppercase;
     margin: 0 auto 20px;
+    outline: none;
 }
+
 .form-buy-button:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 12px 16px 0 rgba(44, 33, 33, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
