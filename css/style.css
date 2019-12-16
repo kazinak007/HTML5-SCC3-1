@@ -538,7 +538,11 @@ input[type="button"]:active {
     height: 42px;
     border: 1px solid black;
     box-sizing: border-box;
-    background: url(../img/skype_icon.png) no-repeat
+    background: url(../img/skype_icon.png) no-repeat;
+    margin: 0 5px 0 0;
+}
+.social-link:nth-child(5){
+    margin: 0;
 }
 
 .copiright {
